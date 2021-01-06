@@ -1,5 +1,4 @@
 ul {
-  list-style-type: none;
   margin-right: 10px;
   padding-right: 10px;
   overflow: hidden;
@@ -67,7 +66,7 @@ h3 {
 .latestsection {
   background-color: aliceblue;
   height: 600px;
-  margin: 300px 0 50px ;
+  margin: 300px 0 50px;
   padding: 45px;
 }
 
@@ -84,33 +83,63 @@ h3 {
 }
 
 .bottombanner {
-    height: 350px;
-    background: url("../shapes/Group_33094_1.png");
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
+  height: 350px;
+  background: url("../shapes/Group_33094_1.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
 }
 
-.bottomdiv{
-    float: left;
-    margin-left: 30%;
-    padding-top: 7%;
-    text-transform: uppercase;
-    color: white;
-    font-size: 30px;
+.bottomdiv {
+  float: left;
+  margin-left: 30%;
+  padding-top: 7%;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
 }
-.hireme{
-    text-align: right;
-    margin-right: 30%;
-    padding-top: 9%;
+.hire_me {
+  text-align: right;
+  margin-right: 30%;
+  padding-top: 9%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5%;
+}
+
+.formsection {
+  background-color: aliceblue;
+  height: 600px;
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 3% ;
+  padding: 20px;
+  
+}
+
+.myform{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
 .icondiv{
-    float: left;
-
-}
-.footer{
-    text-align: center;
-    font-size: 12px;
-    margin-top: 5%
+  margin: auto;
+  float: left;
+  width: auto;
 }
