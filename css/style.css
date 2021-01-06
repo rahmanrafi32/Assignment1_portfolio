@@ -98,10 +98,19 @@ h3 {
     text-transform: uppercase;
     color: white;
     font-size: 30px;
-    font-family: "Ubuntu", sans-serif;
 }
 .hireme{
     text-align: right;
     margin-right: 30%;
     padding-top: 9%;
+}
+
+.icondiv{
+    float: left;
+
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5%
 }
