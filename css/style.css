@@ -1,16 +1,9 @@
-ul {
-  margin-right: 10px;
-  padding-right: 10px;
-  overflow: hidden;
-  background-color: white;
-}
 li {
   float: right;
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+  padding: 14px 14px;
 }
 
 h1 {
@@ -55,7 +48,7 @@ a {
 }
 
 .upperpic {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 h3 {
@@ -65,10 +58,12 @@ h3 {
 
 .latestsection {
   box-shadow: 8px 8px 20px LightGray;
-  background-color: aliceblue;
   height: 600px;
   margin: 300px 0 50px;
   padding: 45px;
+  background-image: url("../images/biography-bg.png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 .innerdiv {
@@ -89,6 +84,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: center;
+  opacity: 0.8;
 }
 
 .bottomdiv {
@@ -112,7 +108,7 @@ h3 {
 }
 
 .formsection {
-  background-color: aliceblue;
+  background: url("../images/header-bg.png");
   height: 600px;
   width: 70%;
   text-align: center;
@@ -131,6 +127,14 @@ h3 {
 }
 
 input[type=text]{
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=email]{
   width: 100%;
   padding: 12px;
   margin: 10px 0 10px 0;
