@@ -39,7 +39,7 @@ a {
   text-decoration: none;
   color: white;
   background-color: orange;
-  background-image: linear-gradient(48deg, salmon, tomato);
+  background-image: linear-gradient(48deg, DeepPink, red);
 }
 
 .top-banner {
@@ -50,7 +50,7 @@ a {
 
 .bodysection {
   border: 10px;
-  margin: 15px;
+  margin: 30px;
   padding: 20px;
   height: 400px;
 }
@@ -66,16 +66,16 @@ h3 {
 
 .latestsection {
   background-color: aliceblue;
-  height: 450px;
-  margin: 70px 10px;
-  padding: 35px;
+  height: 600px;
+  margin: 300px 0 50px ;
+  padding: 45px;
 }
 
 .innerdiv {
   border-radius: 10px;
-  width: 28%;
+  width: 30%;
   background-color: white;
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
   float: left;
 }
@@ -84,7 +84,24 @@ h3 {
 }
 
 .bottombanner {
-  background-image: url("shapes/Group_33094_1.png");
-  background-repeat: none;
-  height: 400px;
+    height: 350px;
+    background: url("../shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.bottomdiv{
+    float: left;
+    margin-left: 30%;
+    padding-top: 7%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+}
+.hireme{
+    text-align: right;
+    margin-right: 30%;
+    padding-top: 9%;
 }
